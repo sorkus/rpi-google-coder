@@ -5,7 +5,7 @@ apt-get install -y git-core zip && \
 apt-get clean
 
 WORKDIR /opt/coder/
-RUN git clone https://github.com/googlecreativelab/coder.git .
+RUN git clone https://github.com/sorkus/coder.git .
 RUN ls -la && pwd
 
 WORKDIR /opt/coder/coder-apps
